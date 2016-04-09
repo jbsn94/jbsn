@@ -29,15 +29,15 @@ a {
     margin-left: 1rem; }
 
 .btn:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: #FF530D;
   text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.5);
   border-color: rgba(255, 255, 255, 0.3); }
 
 .active-menu {
-  color: rgba(255, 255, 255, 0.8);
+  color: #FF530D;
   text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.5);
   border-color: rgba(255, 255, 255, 0.3);
 }
 
@@ -61,6 +61,7 @@ a {
       margin-left: 0; } }
 
 .page-header {
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.35);
   color: #fff;
   text-align: center;
   /*background-color: #159957;*/
