@@ -242,3 +242,10 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+.display > a{
+  text-decoration: none;
+}
+.display > a > img{
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.54);
+}
