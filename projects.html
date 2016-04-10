@@ -112,10 +112,14 @@
   </body>
   <script type="text/javascript">
       $(document).ready(function() {
+        //Transitions
         $("body").css("display", "none");
         $("body").fadeIn(500);
+        //Display Fullscreen
         $('.display').Chocolat({
-          imageSize: 'contain'
+          loop           : true,
+          imageSize     : 'cover',
+          overlayOpacity : 0.9
         });
       });
   </script>
