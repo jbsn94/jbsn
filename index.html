@@ -1,69 +1,235 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="pt-br"> <!--<![endif]-->  
+<head>
     <title>Neto Barbosa</title>
-    <link rel="icon" type="image/png" href="images/icon-code.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Github customizations -->
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <!-- CDN Fontaewsome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <!-- Menu -->
-    <link rel="stylesheet" type="text/css" href="stylesheets/menu.css" media="screen">
-    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-    <script src="js/script.js"></script>
-  </head>
-  <body>
-    <section class="page-header">
-      <center>
-        <h1 class="project-name" style="text-shadow: 3px 5px 3px rgba(0, 0, 0, 0.47);"><i class="fa fa-code"></i> Neto Barbosa</h1>
-      </center>
-      <h2 class="project-tagline"></h2>
-      <center>
-        <div id='cssmenu'>
-          <ul>
-            <li class='active'><a href='index.html'><i class="fa fa-home fa-2x"></i> Home</a></li>
-            <li class="teste"><a class="teste" href='curriculum.html'><i class="fa fa-info fa-2x"></i> Currículo</a></li>
-            <li><a href='projects.html'><i class="fa fa-code-fork fa-2x"></i> Projetos</a></li>
-            <li><a href='contact.html'><i class="fa fa-envelope-o fa-2x"></i> Contato</a></li>
-          </ul>
-        </div>
-      </center>
-    </section>
-    <section class="main-content">
-      <!--Start Post -->
-      <h1><i class="fa fa-terminal"></i> Bem vindo</h1>
-        <p>
-          Olá, me chamo Neto Barbosa, sou estudante da Universidade Federal de Pernambuco - <a href="https://www.ufpe.br/ufpenova/">UFPE</a>,
-          estudo Sistemas de Informação no Centro de Informática - <a href="https://cin.ufpe.br">CIN</a>, tenho 21 anos e moro em <a href="https://www.google.com.br/maps/place/Recife+-+PE/@-8.0464433,-35.0025288,12z/data=!3m1!4b1!4m2!3m1!1s0x7ab196f88c446e5:0x3c9ef52922447fd4"><i class="fa fa-map-marker"></i> PE - Recife</a>.
-        </p>
-        <h3>Áreas de Interesse</h3>
-        <p>
-          <ul style="list-style-type:none">
-            <li><i class="fa fa-database"></i> Banco de dados</li>
-            <li><i class="fa fa-code"></i> Engenharia de software</li>
-          </ul>
-        </p>
-      <!--End Post -->
-      <!--Start Footer -->
-      <footer class="site-footer">
-        <center>
-          <span class="site-footer-owner">
-            <i class="fa fa-thumbs-o-up"></i> Esta pagina é mantida e editada por <a href="contact.html">Neto Barbosa</a>.
-          </span>
-        </center>
-      </footer>
-      <!--End Footer -->
-    </section>
-  </body>
-  <script type="text/javascript">
-      $(document).ready(function() {
-        $("body").css("display", "none");
-        $("body").fadeIn(500);
-      });
-  </script>
-</html>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="pt-br, en">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Currículo com informações pessoas.">
+    <meta name="author" content="Neto Barbosa">    
+    <link rel="shortcut icon" href="assets/images/icon.png">  
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head> 
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar-wrapper">
+            <div class="profile-container">
+                <img class="profile img-circle shadow" src="assets/images/profilen.png" alt="" />
+                <h1 class="name">Neto Barbosa</h1>
+                <h3 class="tagline">Desenvolvedor Web</h3>
+            </div><!--//profile-container-->
+            
+            <div class="contact-container container-block">
+                <h2 class="container-block-title">Contato</h2>
+                <ul class="list-unstyled contact-list">
+                    <li class="email">
+                        <i class="fa fa-envelope fa-fw"></i><a href="mailto: jbsn@cin.ufpe.br">jbsn@cin.ufpe.br</a>
+                    </li>
+                    <li class="email">
+                        <i class="fa fa-envelope fa-fw"></i><a href="mailto: netobarbosa@hotmail.com">netobarbosa@hotmail.com</a>
+                    </li>
+                    <li class="phone">
+                        <i class="fa fa-phone fa-fw"></i><a href="tel:+5581989161909">+55 (81) 9 8916-1909</a>
+                    </li>
+                    <li class="phone">
+                        <i class="fa fa-skype fa-fw"></i>live:netobarbosa94
+                    </li>
+                    <li class="linkedin">
+                        <i class="fa fa-linkedin fa-fw"></i><a href="https://br.linkedin.com/in/jbsn94" target="_blank">br.linkedin.com/in/jbsn94</a></li>
+                    <li class="github">
+                        <i class="fa fa-github fa-fw"></i><a href="https://github.com/jbsn94" target="_blank">github.com/jbsn94</a>
+                    </li>
+                </ul>
+            </div><!--//contact-container-->
+            <div class="education-container container-block">
+                <h2 class="container-block-title">Educação</h2>
+                <div class="item">
+                    <h4 class="degree">BSc Sistemas de Informação</h4>
+                    <h5 class="meta">Centro de Informática - UFPE</h5>
+                    <div class="time">2014 - 2018</div>
+                </div><!--//item-->
+            </div><!--//education-container-->
+            
+            <div class="languages-container container-block">
+                <h2 class="container-block-title">Linguas</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Português <span class="lang-desc">(Nativo)</span></li>
+                    <li>Inglês <span class="lang-desc">(Básico/Intermediário)</span></li>
+                </ul>
+            </div><!--//interests-->
+            
+            <div class="interests-container container-block">
+                <h2 class="container-block-title">Interesses</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Banco de dados</li>
+                    <li>Engenharia de software</li>
+                    <li>Business intelligence</li>
+                </ul>
+            </div><!--//interests-->
+            
+        </div><!--//sidebar-wrapper-->
+        
+        <div class="main-wrapper">
+            
+            <section class="section summary-section">
+                <h2 class="section-title"><i class="fa fa-user"></i>Sobre</h2>
+                <div class="summary">
+                    <p>
+                        Moro na Cidade de Recife do estado de Pernambuco, tenho 22 anos, sou estudante do curso de 
+                        Sistemas de Informação do Centro de Informática localizado na Universidade Federal de Pernambuco,
+                        tenho um grande interesse pelas áreas de Engenharia de Software e Banco Dados, gosto de trabalhar com 
+                        desenvolvimento web, tanto no Front-end como no Back-end.
+                    </p>
+                </div><!--//summary-->
+            </section><!--//section-->
+            
+            <section class="section experiences-section">
+                <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiências</h2>
+        
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Desenvolvedor Front-end</h3>
+                            <div class="time">2016 - Atual</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Qualinfo Tecnologia, Recife-PE</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Responsavel pela elaboração de telas para aplicações web utilizando tecnologias como HTML5, CSS3, JavaScript, Jquery, Bootstrap, VueJs(Js Framework) e Laravel(PHP Framework) bem como na concepções e implementação de usabilidades para o sistema fazendo com que os usuários obtivessem uma melhor experiencia ao se utilizarem do sistema.</p>
+                    </div><!--//details-->
+                </div><!--//item-->
+                
+            </section><!--//section-->
+            
+            <section class="section projects-section">
+                <h2 class="section-title"><i class="fa fa-archive"></i>Projetos</h2>
+                <div class="item">
+                    <span class="project-title">
+                        <a href="https://smartcase.herokuapp.com" target="_blank"><i class="fa fa-link" aria-hidden="true"></i> SmartCase</a>
+                    </span> - 
+                    <span class="project-tagline">
+                        A SmartCase foi um projeto desenvolvido para que facilitasse o acompanhamento de chamadas especificamente para o suporte de computadores no CCSA-UFPE, para maiores informações entre no Github do projeto: <a href="https://github.com/jbsn94/SmartCase" target="_blank">github.com/jbsn94/SmartCase</a>.<br>
+                        <b>Login/CPF:</b> 1234<br>
+                        <b>Senha:</b> 1234
+                    </span>   
+                </div><!--//item-->
+            </section><!--//section-->
+            
+            <section class="skills-section section">
+                <h2 class="section-title"><i class="fa fa-rocket"></i>Habilidades</h2>
+                <div class="skillset">        
+                    <div class="item">
+                        <h3 class="level-title">Ruby &amp; Ruby on Rails</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner vermelho" data-level="70%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">JavaScript &amp; jQuery</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner amarelo" data-level="80%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">VueJs</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner verde" data-level="70%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">HTML5 &amp; CSS3</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner azul" data-level="80%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">PHP &amp; Laravel</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner vermelho" data-level="40%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">SQLServer &amp; Mysql</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner amarelo" data-level="60%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">Bootstrap</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner verde" data-level="90%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">Git &amp; GitHub &amp; Bitbucket</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner azul" data-level="60%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">Linux</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner vermelho" data-level="70%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    
+                </div>  
+            </section><!--//skills-section-->
+            
+        </div><!--//main-body-->
+    </div>
+ 
+    <footer class="footer">
+        <div class="text-center">
+            <small class="copyright">&copy; Copyright 2016 - <a href="https://www.facebook.com/netobarbosa74" target="_blank">Neto Barbosa</a>, todos os direitos reservados.</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("body").css("display", "none");
+            $("body").fadeIn(500);
+        });
+    </script>            
+</body>
+</html> 
+
